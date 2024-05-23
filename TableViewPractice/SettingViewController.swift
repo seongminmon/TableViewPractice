@@ -10,7 +10,7 @@ import UIKit
 class SettingViewController: UITableViewController {
     
     let sectionHeader = ["전체 설정", "개인 설정", "기타"]
-    let cellDataSource = [
+    let cellData = [
         ["공지사항", "실험실", "버전 정보"],
         ["개인/보안", "알림", "채팅", "멀티프로필"],
         ["고객센터/도움말"]
@@ -36,7 +36,7 @@ class SettingViewController: UITableViewController {
     // MARK: - 셀
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cellDataSource[section].count
+        return cellData[section].count
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -46,7 +46,7 @@ class SettingViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")!
         
-        cell.textLabel?.text = cellDataSource[indexPath.section][indexPath.row]
+        cell.textLabel?.text = cellData[indexPath.section][indexPath.row]
         
         return cell
     }

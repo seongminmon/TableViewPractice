@@ -13,6 +13,7 @@
 		243101602BFF227A00E19C97 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2431015F2BFF227A00E19C97 /* Base */; };
 		243101622BFF227B00E19C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243101612BFF227B00E19C97 /* Assets.xcassets */; };
 		243101652BFF227B00E19C97 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 243101642BFF227B00E19C97 /* Base */; };
+		2431016D2BFF2E8900E19C97 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2431016C2BFF2E8900E19C97 /* ShoppingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		243101612BFF227B00E19C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243101642BFF227B00E19C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243101662BFF227B00E19C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2431016C2BFF2E8900E19C97 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				243101582BFF227A00E19C97 /* AppDelegate.swift */,
 				2431015A2BFF227A00E19C97 /* SceneDelegate.swift */,
 				2431015C2BFF227A00E19C97 /* SettingViewController.swift */,
+				2431016C2BFF2E8900E19C97 /* ShoppingViewController.swift */,
 				2431015E2BFF227A00E19C97 /* Main.storyboard */,
 				243101612BFF227B00E19C97 /* Assets.xcassets */,
 				243101632BFF227B00E19C97 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				2431015D2BFF227A00E19C97 /* SettingViewController.swift in Sources */,
 				243101592BFF227A00E19C97 /* AppDelegate.swift in Sources */,
+				2431016D2BFF2E8900E19C97 /* ShoppingViewController.swift in Sources */,
 				2431015B2BFF227A00E19C97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
