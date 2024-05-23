@@ -42,8 +42,11 @@ class ShoppingViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")!
         
         cell.textLabel?.text = list[indexPath.row]
-        cell.backgroundColor = .systemGray5
-        cell.layer.cornerRadius = 20
+        cell.textLabel?.backgroundColor = .systemGray5
+        cell.textLabel?.clipsToBounds = true
+        cell.textLabel?.layer.cornerRadius = 20
+        
+        cell.selectionStyle = .none
         
         return cell
     }
