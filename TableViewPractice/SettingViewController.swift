@@ -20,7 +20,6 @@ class SettingViewController: UITableViewController {
         super.viewDidLoad()
         
         navigationItem.title = "설정"
-        
     }
     
     // MARK: - 섹션

@@ -14,6 +14,7 @@
 		243101622BFF227B00E19C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243101612BFF227B00E19C97 /* Assets.xcassets */; };
 		243101652BFF227B00E19C97 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 243101642BFF227B00E19C97 /* Base */; };
 		2431016D2BFF2E8900E19C97 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2431016C2BFF2E8900E19C97 /* ShoppingViewController.swift */; };
+		243101752C01EC5100E19C97 /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243101742C01EC5100E19C97 /* ShoppingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		243101642BFF227B00E19C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243101662BFF227B00E19C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2431016C2BFF2E8900E19C97 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		243101742C01EC5100E19C97 /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2431015A2BFF227A00E19C97 /* SceneDelegate.swift */,
 				2431015C2BFF227A00E19C97 /* SettingViewController.swift */,
 				2431016C2BFF2E8900E19C97 /* ShoppingViewController.swift */,
+				243101742C01EC5100E19C97 /* ShoppingTableViewCell.swift */,
 				2431015E2BFF227A00E19C97 /* Main.storyboard */,
 				243101612BFF227B00E19C97 /* Assets.xcassets */,
 				243101632BFF227B00E19C97 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243101752C01EC5100E19C97 /* ShoppingTableViewCell.swift in Sources */,
 				2431015D2BFF227A00E19C97 /* SettingViewController.swift in Sources */,
 				243101592BFF227A00E19C97 /* AppDelegate.swift in Sources */,
 				2431016D2BFF2E8900E19C97 /* ShoppingViewController.swift in Sources */,
