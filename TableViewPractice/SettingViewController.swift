@@ -7,32 +7,18 @@
 
 import UIKit
 
-enum SettingOptions: Int, CaseIterable {
-    case total, personal, others
-    
-    var mainOptions: String {
-        switch self {
-        case .total: return "전체 설정"
-        case .personal: return "개인 설정"
-        case .others: return "기타"
-        }
-    }
-    
-    var subOptions: [String] {
-        switch self {
-        case .total: return ["공지사항", "실험실", "버전 정보"]
-        case .personal: return ["개인/보안", "알림", "채팅", "멀티프로필"]
-        case .others: return ["고객센터/도움말"]
-        }
-    }
-}
-
 class SettingViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationItem.title = "설정"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "이동", style: .plain, target: self, action: #selector(nextButtonTapped))
+    }
+    
+    @objc func nextButtonTapped() {
+        let vc = DetailViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     // MARK: - 섹션
